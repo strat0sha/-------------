@@ -9,11 +9,11 @@
 </head>
 <body>
 
-<main>
+<!-- <main>
 	<div id="myDIV" class="header">
 	  <h2>Мой список дел</h2>
-	  <input type="text" id="myInput" placeholder="Новое дело...">
-	  <span onclick="newElement()" class="addBtn">Добавить</span>
+	  <input type="text" id="myInput" .todo__text placeholder="Новое дело...">
+	  <button class="addBtn" disabled="disabled">Добавить</button>
 	</div>
 
 	<ul id="list">
@@ -24,7 +24,17 @@
 	  <li>Read a book</li>
 	  <li>Organize office</li>
 	</ul>
-</main>
+</main> -->
+
+<div id="list" class="todo">
+  <h2 class="todo__caption">Список дел</h2>
+  <ul class="todo__list">
+  </ul>
+  <div class="todo__controls">
+    <input type="text" class="todo__text" />
+    <button disabled="disabled" class="todo__add">Добавить</button>
+  </div>
+</div>
 
 </body>
 </html>
