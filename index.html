@@ -3,38 +3,22 @@
 <head>
 	<meta charset="UTF-8">
 	<title>First Page</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="style.css">
-	<script src="script.js"></script>
 </head>
 <body>
 
-<!-- <main>
-	<div id="myDIV" class="header">
-	  <h2>Мой список дел</h2>
-	  <input type="text" id="myInput" .todo__text placeholder="Новое дело...">
-	  <button class="addBtn" disabled="disabled">Добавить</button>
-	</div>
+<div class="wrapper">
+    <div class="header">
+        <h1>Список дел</h1>
+        <input type="text" placeholder="Введите новое дело..." id="toDoEl">
+        <span class="addBtn" onclick="newElement()">Добавить</span>
+    </div>
+    <ul id="list">
 
-	<ul id="list">
-	  <li>Hit the gym</li>
-	  <li class="checked">Pay bills</li>
-	  <li>Meet George</li>
-	  <li>Buy eggs</li>
-	  <li>Read a book</li>
-	  <li>Organize office</li>
-	</ul>
-</main> -->
-
-<div id="list" class="todo">
-  <h2 class="todo__caption">Список дел</h2>
-  <ul class="todo__list">
-  </ul>
-  <div class="todo__controls">
-    <input type="text" class="todo__text" />
-    <button disabled="disabled" class="todo__add">Добавить</button>
-  </div>
+    </ul>
 </div>
+
+<script src="script.js"></script>
 
 </body>
 </html>
